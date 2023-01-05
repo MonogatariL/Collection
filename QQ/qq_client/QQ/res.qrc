@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>res/BackGround1.png</file>
+        <file>res/BackGround2.png</file>
+        <file>res/ewm.png</file>
+        <file>res/ewm2.png</file>
+        <file>res/face.png</file>
+        <file>res/face1.png</file>
+        <file>res/loading.gif</file>
+        <file>res/lock.png</file>
+        <file>res/log.png</file>
+        <file>res/log_0.png</file>
+        <file>res/login.png</file>
+        <file>res/login_background.png</file>
+        <file>res/top_ui1.png</file>
+        <file>res/top_ui2.png</file>
+        <file>res/white_background.png</file>
+        <file>res/white_bg.png</file>
+        <file>res/please_wait.gif</file>
+        <file>res/face2.png</file>
+        <file>res/qq.png</file>
+        <file>res/green.png</file>
+        <file>res/red.png</file>
+        <file>res/qq2.png</file>
+        <file>res/gray.png</file>
+    </qresource>
+</RCC>
