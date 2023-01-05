@@ -1,5 +1,6 @@
 ＃记录一些小玩意
-#1:QQ
+
+QQ
 为应付答辩设计匆忙制作的qq
 
 ![G0PU96OTC`G $C@Q H95P1](https://user-images.githubusercontent.com/73738864/136547683-1b7fab2c-b8ef-40c4-8769-aa362ab06978.png)
