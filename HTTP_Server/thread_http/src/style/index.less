@@ -1,0 +1,226 @@
+@import url(./base.css);
+@import (reference) url(./lib.less);
+@import url(./body.less);
+
+.header {
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  height: 520px;
+  width: 100%;
+  background-color: white;
+
+  &__top {
+    position: fixed;
+    z-index: 999;
+    flex: 1;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+
+    &-container {
+      &:extend(.l-center-m);
+      width: 1000px;
+      height: 100%;
+    }
+  }
+
+  &__btn-list {
+    &:extend(.l-d-lb, .l-d-fc);
+    float: right;
+    height: 100%;
+  }
+
+  &__blue-backdrop {
+    margin-top: 80px;
+    flex: 6;
+    width: 100%;
+    height: 100%;
+    background-color: #008bed;
+  }
+
+  &__content {
+    &:extend(.l-center-m);
+    display: flex;
+    width: 1000px;
+    height: 100%;
+  }
+
+  &__inner {
+    &:extend(.l-d-fc);
+    flex: 4;
+    height: 100%;
+    width: 100%;
+    transform: translate(20%, 0) translate3d(0, 0, 0);
+    opacity: 0;
+    transition: transform 1.5s, opacity 1.5s;
+
+    &--real {
+      height: 70%;
+      width: 70%;
+      transform: translate(10%, 10%);
+    }
+
+    &__title {
+      &:extend(.l-d-lb);
+      width: 100%;
+      font-size: 2.5rem;
+      color: white;
+      padding-bottom: 3px;
+    }
+
+    &__info {
+      color: rgba(255, 255, 255, 0.6);
+    }
+  }
+}
+
+.header__btn {
+  @bc: #f0f9ff;
+  color: #008bed;
+  margin-left: 2rem;
+  width: 120px;
+  height: 2rem;
+  line-height: 2rem;
+  border-radius: 3px;
+  background-color: @bc;
+  text-align: center;
+
+  &:hover {
+    text-decoration: none;
+    color: white;
+    background-color: darken(@bc, 20%);
+  }
+}
+
+.download {
+  display: flex;
+  position: relative;
+  height: 160px;
+  width: auto;
+}
+
+.download-btn-list {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  float: right;
+  height: 100%;
+  width: 200px;
+}
+
+.qrcode {
+  margin-right: 2rem;
+  border-radius: 5px;
+}
+
+.download-btn {
+  flex: 1;
+  background-color: white;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 1.2rem;
+
+  &__ios {
+    &:extend(.download-btn);
+    margin-bottom: 2rem;
+
+    a {
+      box-sizing: border-box;
+      &:extend(.l-d-lb100, .l-d-fc);
+      background: url(../img/iphone.png) 1rem/2rem no-repeat;
+      padding-left: 1rem;
+      border-radius: 3px;
+
+      &:hover {
+        color: black;
+        text-decoration: none;
+        background-color: #e0f3ff;
+      }
+    }
+  }
+
+  &__android {
+    &:extend(.download-btn);
+
+    &:hover .android-download-list {
+      display: block;
+      border-bottom-left-radius: 3px;
+      border-bottom-right-radius: 3px;
+    }
+
+    &:hover {
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+    }
+
+    a {
+      &:extend(.l-d-lb100, .l-d-fc);
+      box-sizing: border-box;
+      padding-left: 1rem;
+      border-radius: 3px;
+
+      &:hover {
+        color: black;
+        text-decoration: none;
+        background-color: #e0f3ff;
+      }
+    }
+
+    &>a {
+      background: url(../img/安卓.png) 1rem/2rem no-repeat;
+    }
+  }
+}
+
+.android-download-item {
+  height: 64px;
+  width: 100%;
+}
+
+.android-download {
+  &-list {
+    position: absolute;
+    margin-top: -1px;
+    display: none;
+    background-color: white;
+    width: 100%;
+  }
+
+  &-wandoujia>a {
+    &:extend(.android-download-item);
+    background: url(../img/icon_wandoujia.png) 8px/3rem no-repeat;
+  }
+
+  &-91>a {
+    &:extend(.android-download-item);
+    background: url(../img/icon_91market.png) 8px/3rem no-repeat;
+  }
+
+  &-360>a {
+    &:extend(.android-download-item);
+    background: url(../img/icon_360market.png) 8px/3rem no-repeat;
+  }
+}
+
+.logo {
+  &:extend(.l-d-lb);
+  height: 100%;
+  width: 15%;
+  background: url(../img/logo.png) left/100% no-repeat;
+}
+
+.mobile {
+  &-img {
+    opacity: 0;
+    transform: translate(0, 100%);
+    transition: transform 1.5s, opacity 1.5s;
+  }
+
+  &-box {
+    flex: 3;
+    overflow: hidden;
+  }
+}
+
+/* -----------------------------------------------------------------------------------------------主体区域------------------------------------------------------------------------  */

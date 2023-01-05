@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>知乎日报</title>
+  <link rel="stylesheet" href="./style/index.css">
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+  <script src="./js/index.js"></script>
+</head>
+
+<body>
+  <header class="header" id="header">
+    <div class="header__top">
+      <div class="header__top-container">
+        <a href="#" class="logo"></a>
+        <div class="header__btn-list">
+          <a href="#" class="header__btn">App下载</a>
+          <a href="#" class="header__btn">打开知乎</a>
+        </div>
+      </div>
+    </div>
+    <div class="header__blue-backdrop">
+      <div class="header__content">
+        <div class="mobile-box">
+          <img src="img/sjjieping.png" alt="手机截图" class="mobile-img">
+        </div>
+        <div class="header__inner">
+          <div class="header__inner--real">
+            <span class="header__inner__title">每天三次 &nbsp;&nbsp;每次七分钟</span>
+            <span class="header__inner__info">在中国，资讯类移动应用的人均阅读时长是 5 分钟，而在知乎日报，这个数字是 21。</span>
+            <br>
+            <br>
+            <br>
+            <div class="download">
+              <img src="img/fuzi.png" alt="二维码" class="qrcode">
+              <ul class="download-btn-list">
+                <li class="download-btn__ios"><a href="#">iOS 版</a></li>
+                <li class="download-btn__android">
+                  <a href="#">Android 版</a>
+                  <ul class="android-download-list">
+                    <li class="android-download-wandoujia"><a href="#">豌豆荚</a></li>
+                    <li class="android-download-91"><a href="#">91 市场</a></li>
+                    <li class="android-download-360"><a href="#">360 市场</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main--backdrop">
+    <div class="main">
+      <ul class="message-list">
+        <li class="message-box" v-for="news in newsGroup">
+          <item v-bind:news="news"></item>
+        </li>
+      </ul>
+      <div class="more-box">
+        <a href="#" class="more-btn">更多精彩内容可在知乎日报应用中查看</a>
+      </div>
+    </div>
+    <div class="go-top">
+      <a href="#header" class="go-top__btn"></a>
+    </div>
+  </main>
+  <footer class="footer-backdrop">
+    <div class="footer-container">
+      <div class="info-wrap">
+        <p>知乎日报是一款拥有千万用户的资讯类客户端，每日提供来自知乎社区的精选问答，还有国内一流媒体的专栏特稿。</p>
+        <p>主题日报包括动漫、设计、大公司、游戏、财经、电影、电子音乐、互联网安全等丰富内容，为业内人和资深爱好
+          <br>
+          者推荐各领域最精彩文章，满足高质量阅读需求。
+        </p>
+        <p>在知乎日报，告别浮躁，重获阅读的愉悦。</p>
+        <p>京 ICP 证 110745 号</p>
+        <p>京公网安备 11010802010035 号</p>
+        <p>©zhihu 2015</p>
+      </div>
+      <div class="footer-qrcode">
+        <img src="img/fuzi.png" width="100%" height="100%">
+        <div>扫码下载客户端</div>
+      </div>
+    </div>
+  </footer>
+  <script src="./js/datainit.js"></script>
+</body>
+
+</html>
