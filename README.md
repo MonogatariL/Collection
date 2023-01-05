@@ -1,6 +1,8 @@
 ＃记录一些小玩意
 
-QQ
+1:QQ
+
+
 为应付答辩设计匆忙制作的qq
 
 ![G0PU96OTC`G $C@Q H95P1](https://user-images.githubusercontent.com/73738864/136547683-1b7fab2c-b8ef-40c4-8769-aa362ab06978.png)
@@ -11,7 +13,9 @@ QQ
 
 ![Q)8@XWPPKGPSN_)5Y@WUX(5](https://user-images.githubusercontent.com/73738864/136548372-8bcb39be-2a02-4af9-8e67-bad6e1421500.png)
 
-#2:Tetris
+2:Tetris
+
+
 1、基本游戏界面+键盘操作指令
 
 
