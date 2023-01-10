@@ -1,0 +1,30 @@
+﻿生成启动时间为 2022/3/25 17:13:12。
+     1>项目“D:\tsg\QtGuiApplication1\QtGuiApplication1\QtGuiApplication1.vcxproj”在节点 2 上(Build 个目标)。
+     1>QtRccSetDependencies:
+         "D:\Qt\Qt5.6.3\5.6.3\msvc2013\bin\rcc.exe" --list "page_preview.qrc" > "x64\Debug\rcc_list.txt" 2> nul
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_Histogram.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_Histogram.cpp, GeneratedFiles\Release\moc_Histogram.cpp.
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\tsg\QtGuiApplication1\x64\Debug\\libary.exe" /NOLOGO /LIBPATH:D:\Qt\Qt5.6.3\5.6.3\msvc2013\lib qtmaind.lib Qt5Chartsd.lib Qt5Guid.lib Qt5Sqld.lib Qt5Widgetsd.lib Qt5Cored.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\tsg\QtGuiApplication1\x64\Debug\libary.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\tsg\QtGuiApplication1\x64\Debug\libary.lib" /MACHINE:X64 x64\Debug\Book_Manager.obj
+         x64\Debug\charts.obj
+         x64\Debug\console.obj
+         x64\Debug\CurveChart.obj
+         x64\Debug\Db.obj
+         x64\Debug\moc_Histogram.obj
+         x64\Debug\Global.obj
+         x64\Debug\Histogram.obj
+         x64\Debug\main.obj
+         x64\Debug\page_preview.obj
+         x64\Debug\Syurui_Manager.obj
+         x64\Debug\qrc_page_preview.obj
+         x64\Debug\moc_page_preview.obj
+         x64\Debug\moc_Syurui_Manager.obj
+         x64\Debug\moc_console.obj
+         x64\Debug\moc_charts.obj
+         x64\Debug\moc_CurveChart.obj
+         x64\Debug\moc_Book_Manager.obj
+     1>Qt5Widgetsd.lib(Qt5Widgetsd.dll) : fatal error LNK1112: 模块计算机类型“X86”与目标计算机类型“x64”冲突
+     1>已完成生成项目“D:\tsg\QtGuiApplication1\QtGuiApplication1\QtGuiApplication1.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.39

@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>pg_LoginWidget</class>
+ <widget class="QWidget" name="pg_LoginWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>876</width>
+    <height>556</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>pg_LoginWidget</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <item row="0" column="1">
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="1" column="0">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="2" column="1">
+    <spacer name="verticalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="1" column="1">
+    <widget class="QWidget" name="widget_center" native="true">
+     <property name="minimumSize">
+      <size>
+       <width>846</width>
+       <height>526</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>846</width>
+       <height>526</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#widget_center
+{
+	border-image:url(./Resources/LoginResource/bg2.png) ;
+}
+
+</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <property name="leftMargin">
+         <number>98</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>74</number>
+        </property>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <property name="leftMargin">
+           <number>70</number>
+          </property>
+          <property name="topMargin">
+           <number>125</number>
+          </property>
+          <property name="rightMargin">
+           <number>73</number>
+          </property>
+          <property name="bottomMargin">
+           <number>24</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="label_AppIcon">
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="Line" name="line">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_AppName">
+          <property name="styleSheet">
+           <string notr="true">font-size: 24px;
+font-family: Microsoft YaHei;
+font-weight: bold;
+color: #1A1A1A;
+line-height: 16px;</string>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignHCenter|Qt::AlignTop</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QWidget" name="widget_Right" native="true">
+        <property name="styleSheet">
+         <string notr="true">#widget_Right
+{
+
+}</string>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_2">
+           <property name="spacing">
+            <number>29</number>
+           </property>
+           <property name="leftMargin">
+            <number>50</number>
+           </property>
+           <property name="topMargin">
+            <number>50</number>
+           </property>
+           <property name="rightMargin">
+            <number>65</number>
+           </property>
+           <property name="bottomMargin">
+            <number>85</number>
+           </property>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_3">
+             <item>
+              <widget class="QLabel" name="label_AppHello">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>115</width>
+                 <height>23</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>115</width>
+                 <height>23</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">#label_AppHello
+{
+    border-image:url(./Resources/LoginResource/欢迎进入.png) ;
+}</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pB_onlineMode">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>297</width>
+               <height>80</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton#pB_onlineMode
+{
+    border-image:url(./Resources/LoginResource/onlineDefault.png) ;
+	font-size: 20px;
+	font-family: Microsoft YaHei;
+	font-weight: 400;
+	color: #1A1A1A;
+	line-height: 32px;
+}
+
+QPushButton#pB_onlineMode:hover
+{
+    border-image:url(./Resources/LoginResource/onlineDefault.png) ;
+	font-size: 20px;
+	font-family: Microsoft YaHei;
+	font-weight: 400;
+	color: #2C84CA;
+	line-height: 32px;
+}
+
+QPushButton#pB_onlineMode:pressed
+{
+    border-image:url(./Resources/LoginResource/onlineDown.png) ;
+	font-size: 20px;
+	font-family: Microsoft YaHei;
+	font-weight: 400;
+	color: #2C84CA;
+	line-height: 32px;
+}</string>
+             </property>
+             <property name="text">
+              <string>PushButton</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pB_onlineAnalyzeMode">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>297</width>
+               <height>80</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton#pB_onlineAnalyzeMode
+{
+    border-image:url(./Resources/LoginResource/onlineAnalyzeDefault.png) ;
+	font-size: 20px;
+	font-family: Microsoft YaHei;
+	font-weight: 400;
+	color: #1A1A1A;
+	line-height: 32px;
+}
+
+QPushButton#pB_onlineAnalyzeMode:hover
+{
+    border-image:url(./Resources/LoginResource/onlineAnalyzeDefault.png) ;
+	font-size: 20px;
+	font-family: Microsoft YaHei;
+	font-weight: 400;
+	color: #47A777;
+	line-height: 32px;
+}
+
+QPushButton#pB_onlineAnalyzeMode:pressed
+{
+    border-image:url(./Resources/LoginResource/onlineAnalyzeDown.png) ;
+	font-size: 20px;
+	font-family: Microsoft YaHei;
+	font-weight: 400;
+	color: #47A777;
+	line-height: 32px;
+}</string>
+             </property>
+             <property name="text">
+              <string>PushButton</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pB_offlineTestMode">
+             <property name="minimumSize">
+              <size>
+               <width>297</width>
+               <height>80</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton#pB_offlineTestMode
+{
+    border-image:url(./Resources/LoginResource/offLineTestDefault.png) ;
+	font-size: 20px;
+	font-family: Microsoft YaHei;
+	font-weight: 400;
+	color: #1A1A1A;
+	line-height: 32px;
+}
+
+QPushButton#pB_offlineTestMode:hover
+{
+    border-image:url(./Resources/LoginResource/offLineTestDefault.png) ;
+	font-size: 20px;
+	font-family: Microsoft YaHei;
+	font-weight: 400;
+	color: #D99B17;
+	line-height: 32px;
+}
+
+QPushButton#pB_offlineTestMode:pressed
+{
+    border-image:url(./Resources/LoginResource/offLineTestDown.png) ;
+	font-size: 20px;
+	font-family: Microsoft YaHei;
+	font-weight: 400;
+	color: #D99B17;
+	line-height: 32px;
+}</string>
+             </property>
+             <property name="text">
+              <string>PushButton</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="1" column="2">
+    <spacer name="horizontalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

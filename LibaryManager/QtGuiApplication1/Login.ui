@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Login</class>
+ <widget class="QWidget" name="Login">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>305</width>
+    <height>326</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Login</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QWidget" name="widget" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <property name="spacing">
+       <number>15</number>
+      </property>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="font">
+           <font>
+            <family>Microsoft YaHei</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">
+
+font-size: 18px;
+font-family: Microsoft YaHei;
+font-weight: 400;
+color: #5786C7;</string>
+          </property>
+          <property name="text">
+           <string>学号：</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="LE1"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QLabel" name="label_2">
+          <property name="font">
+           <font>
+            <family>Microsoft YaHei</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">
+
+font-size: 18px;
+font-family: Microsoft YaHei;
+font-weight: 400;
+color: #5786C7;</string>
+          </property>
+          <property name="text">
+           <string>姓名：</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="LE2"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_4">
+        <item>
+         <widget class="QLabel" name="label_4">
+          <property name="font">
+           <font>
+            <family>Microsoft YaHei</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">
+
+font-size: 18px;
+font-family: Microsoft YaHei;
+font-weight: 400;
+color: #5786C7;</string>
+          </property>
+          <property name="text">
+           <string>密码：</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="LE3"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_5">
+        <item>
+         <widget class="QLabel" name="label_5">
+          <property name="font">
+           <font>
+            <family>Microsoft YaHei</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">
+
+font-size: 18px;
+font-family: Microsoft YaHei;
+font-weight: 400;
+color: #5786C7;</string>
+          </property>
+          <property name="text">
+           <string>权限：</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comboBox">
+          <property name="styleSheet">
+           <string notr="true">background: #EDF8FF;
+border: 1px solid #CFDDEF;
+border-top-left-radius:6px;
+border-bottom-left-radius:6px;
+
+font-size: 14px;
+font-family: Microsoft YaHei;
+font-weight: 400;
+color: #5786C7;</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QLabel" name="LE_Msg">
+        <property name="font">
+         <font>
+          <family>Microsoft YaHei</family>
+          <pointsize>-1</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+
+font-size: 18px;
+font-family: Microsoft YaHei;
+font-weight: 400;
+color: #5786C7;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <widget class="QPushButton" name="PB_Login">
+          <property name="styleSheet">
+           <string notr="true">background: #EDF8FF;
+border: 1px solid #CFDDEF;
+border-top-left-radius:6px;
+border-bottom-left-radius:6px;
+
+font-size: 14px;
+font-family: Microsoft YaHei;
+font-weight: 400;
+color: #5786C7;</string>
+          </property>
+          <property name="text">
+           <string>注册信息</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="PB_Back">
+          <property name="styleSheet">
+           <string notr="true">background: #EDF8FF;
+border: 1px solid #CFDDEF;
+border-top-left-radius:6px;
+border-bottom-left-radius:6px;
+
+font-size: 14px;
+font-family: Microsoft YaHei;
+font-weight: 400;
+color: #5786C7;</string>
+          </property>
+          <property name="text">
+           <string>返回</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

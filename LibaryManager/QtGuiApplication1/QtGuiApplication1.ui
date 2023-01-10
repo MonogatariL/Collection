@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>page_preview</class>
+ <widget class="QWidget" name="page_preview">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>512</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>QtGuiApplication1</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QTreeView" name="TreeV_syurui">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>150</width>
+         <height>250</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>150</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: #F3F7FD;
+border: 1px solid #CEDDEE;</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QTreeView" name="TreeV_libary">
+       <property name="minimumSize">
+        <size>
+         <width>300</width>
+         <height>250</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: #F3F7FD;
+border: 1px solid #CEDDEE;</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QTableWidget" name="TableW_book">
+       <property name="minimumSize">
+        <size>
+         <width>500</width>
+         <height>250</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="pushButton_5">
+       <property name="styleSheet">
+        <string notr="true">width: 120px;
+height: 28px;
+background: #FFFFFF;
+border-radius: 4px;
+font-size: 12px;
+font-family: Microsoft YaHei;
+font-weight: 400;
+color: #000000;
+line-height: 60px;</string>
+       </property>
+       <property name="text">
+        <string>PushButton</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="L_current_honndana">
+       <property name="text">
+        <string>当前：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="styleSheet">
+        <string notr="true">width: 120px;
+height: 28px;
+background: #7470BC;
+border-radius: 4px;
+font-size: 12px;
+font-family: Microsoft YaHei;
+font-weight: 400;
+color: #FEFEFE;
+line-height: 60px;</string>
+       </property>
+       <property name="text">
+        <string>PushButton</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="styleSheet">
+        <string notr="true">width: 120px;
+height: 28px;
+background: #286DB5;
+border-radius: 4px;
+font-size: 12px;
+font-family: Microsoft YaHei;
+font-weight: 400;
+color: #FEFEFE;
+line-height: 60px;</string>
+       </property>
+       <property name="text">
+        <string>PushButton</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_4">
+       <property name="styleSheet">
+        <string notr="true">width: 120px;
+height: 28px;
+background: #31B880;
+border-radius: 4px;
+font-size: 12px;
+font-family: Microsoft YaHei;
+font-weight: 400;
+color: #FEFEFE;
+line-height: 60px;</string>
+       </property>
+       <property name="text">
+        <string>PushButton</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="styleSheet">
+        <string notr="true">width: 120px;
+height: 28px;
+background: #E0463E;
+border-radius: 4px;
+font-size: 12px;
+font-family: Microsoft YaHei;
+font-weight: 400;
+color: #FEFEFE;
+line-height: 60px;</string>
+       </property>
+       <property name="text">
+        <string>PushButton</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QWidget" name="widget" native="true">
+     <property name="minimumSize">
+      <size>
+       <width>950</width>
+       <height>200</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="QtGuiApplication1.qrc"/>
+ </resources>
+ <connections/>
+</ui>

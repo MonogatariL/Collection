@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Chart图">
+      <UniqueIdentifier>{82bbc347-bafa-4506-80f2-3580d61607a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GlobalFile">
+      <UniqueIdentifier>{58da779b-8edd-4d19-9f9f-0c97cbb7e269}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="数据库">
+      <UniqueIdentifier>{bde592fc-6f16-4ddd-914e-4dd02037fe51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="管理窗口">
+      <UniqueIdentifier>{32eeee62-8b87-4bb9-8711-f3cb58d9fbd3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="console.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Db.cpp">
+      <Filter>数据库</Filter>
+    </ClCompile>
+    <ClCompile Include="Global.cpp">
+      <Filter>GlobalFile</Filter>
+    </ClCompile>
+    <ClCompile Include="charts\SyuruiNum_Chart.cpp">
+      <Filter>Chart图</Filter>
+    </ClCompile>
+    <ClCompile Include="charts\Charts.cpp">
+      <Filter>Chart图</Filter>
+    </ClCompile>
+    <ClCompile Include="Book_Manager.cpp">
+      <Filter>管理窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="page_preview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Syurui_Manager.cpp">
+      <Filter>管理窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="Borrowed_Manager.cpp">
+      <Filter>管理窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="pg_LoginWidget.cpp">
+      <Filter>管理窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="User_Manager.cpp">
+      <Filter>管理窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="Quantity_Manager.cpp">
+      <Filter>管理窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="Login.cpp">
+      <Filter>管理窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="Register.cpp">
+      <Filter>管理窗口</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="console.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="page_preview.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="charts\Charts.h">
+      <Filter>Chart图</Filter>
+    </QtMoc>
+    <QtMoc Include="Book_Manager.h">
+      <Filter>管理窗口</Filter>
+    </QtMoc>
+    <QtMoc Include="Syurui_Manager.h">
+      <Filter>管理窗口</Filter>
+    </QtMoc>
+    <QtMoc Include="Borrowed_Manager.h">
+      <Filter>管理窗口</Filter>
+    </QtMoc>
+    <QtMoc Include="pg_LoginWidget.h">
+      <Filter>管理窗口</Filter>
+    </QtMoc>
+    <QtMoc Include="User_Manager.h">
+      <Filter>管理窗口</Filter>
+    </QtMoc>
+    <QtMoc Include="Quantity_Manager.h">
+      <Filter>管理窗口</Filter>
+    </QtMoc>
+    <QtMoc Include="Login.h">
+      <Filter>管理窗口</Filter>
+    </QtMoc>
+    <QtMoc Include="Register.h">
+      <Filter>管理窗口</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="console.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="page_preview.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="Book_Manager.ui">
+      <Filter>管理窗口</Filter>
+    </QtUic>
+    <QtUic Include="Syurui_Manager.ui">
+      <Filter>管理窗口</Filter>
+    </QtUic>
+    <QtUic Include="Borrowed_Manager.ui">
+      <Filter>管理窗口</Filter>
+    </QtUic>
+    <QtUic Include="pg_LoginWidget.ui">
+      <Filter>管理窗口</Filter>
+    </QtUic>
+    <QtUic Include="User_Manager.ui">
+      <Filter>管理窗口</Filter>
+    </QtUic>
+    <QtUic Include="Quantity_Manager.ui">
+      <Filter>管理窗口</Filter>
+    </QtUic>
+    <QtUic Include="Login.ui">
+      <Filter>管理窗口</Filter>
+    </QtUic>
+    <QtUic Include="Register.ui">
+      <Filter>管理窗口</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Db.h">
+      <Filter>数据库</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>GlobalFile</Filter>
+    </ClInclude>
+    <ClInclude Include="charts\SyuruiNum_Chart.h">
+      <Filter>Chart图</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="page_preview.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="libary.rc" />
+  </ItemGroup>
+</Project>

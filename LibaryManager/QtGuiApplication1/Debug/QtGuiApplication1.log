@@ -1,0 +1,4 @@
+﻿D:\VS2019\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(QtGuiApplication1.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+D:\VS2019\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(QtGuiApplication1.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  Uic'ing Book_Manager.ui...
+C:\Users\User\AppData\Local\QtMsBuild\qt_globals.targets(293,5): error : [QtRunWork] Error starting process D:\Qt\Qt5.6.3\5.6.3\msvc2013\bin\uic.exe: 系统找不到指定的文件。

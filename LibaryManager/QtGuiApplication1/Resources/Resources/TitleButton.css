@@ -1,0 +1,109 @@
+/*最小化按钮*/
+QPushButton#ButtonMin
+{
+    border-image:url(./Resource/NewUI/TitleBtn/WndHidL.png) 0 78 0 0 ;
+}
+
+QPushButton#ButtonMin:hover
+{
+    border-image:url(./Resource/NewUI/TitleBtn/WndHidL.png) 0 52 0 26 ;
+}
+
+QPushButton#ButtonMin:pressed
+{
+    border-image:url(./Resource/NewUI/TitleBtn/WndHidL.png) 0 26 0 52 ;
+}
+
+/*最大化按钮*/
+QPushButton#ButtonMax
+{
+    border-image:url(./Resource/NewUI/TitleBtn/WndMaxL.png) 0 78 0 0 ;
+}
+
+QPushButton#ButtonMax:hover
+{
+    border-image:url(./Resource/NewUI/TitleBtn/WndMaxL.png) 0 52 0 26 ;
+}
+
+QPushButton#ButtonMax:pressed
+{
+    border-image:url(./Resource/NewUI/TitleBtn/WndMaxL.png) 0 26 0 52 ;
+}
+
+/*还原按钮*/
+QPushButton#ButtonRestore
+{
+    border-image:url(./Resource/NewUI/TitleBtn/WndRestore.png) 0 78 0 0 ;
+}
+
+QPushButton#ButtonRestore:hover
+{
+    border-image:url(./Resource/NewUI/TitleBtn/WndRestore.png) 0 52 0 26 ;
+}
+
+QPushButton#ButtonRestore:pressed
+{
+    border-image:url(./Resource/NewUI/TitleBtn/WndRestore.png) 0 26 0 52 ;
+}
+
+/*关闭按钮*/
+QPushButton#ButtonClose
+{
+    border-image:url(./Resource/NewUI/TitleBtn/WndCloseL.png) 0 78 0 0 ;
+}
+
+QPushButton#ButtonClose:hover
+{
+    border-image:url(./Resource/NewUI/TitleBtn/WndCloseL.png) 0 52 0 26 ;
+}
+
+QPushButton#ButtonClose:pressed
+{
+    border-image:url(./Resource/NewUI/TitleBtn/WndCloseL.png) 0 26 0 52 ;
+}
+
+/*登陆按钮*/
+QPushButton#TitleLogin
+{
+    border-image:url(./Resource/NewUI/TitleBtn/TitleBtn.png) 0 342 0 0 ;
+}
+
+QPushButton#TitleLogin:hover
+{
+    border-image:url(./Resource/NewUI/TitleBtn/TitleBtn.png) 0 216 0 108 ;
+}
+
+QPushButton#TitleLogin:pressed
+{
+    border-image:url(./Resource/NewUI/TitleBtn/TitleBtn.png) 0 108 0 216 ;
+}
+/*计划按钮*/
+QPushButton#TitlePlan
+{
+    border-image:url(./Resource/NewUI/TitleBtn/TitleBtn.png) 0 342 0 0 ;
+}
+
+QPushButton#TitlePlan:hover
+{
+    border-image:url(./Resource/NewUI/TitleBtn/TitleBtn.png) 0 216 0 108 ;
+}
+
+QPushButton#TitlePlan:pressed
+{
+    border-image:url(./Resource/NewUI/TitleBtn/TitleBtn.png) 0 108 0 216 ;
+}
+/*重启按钮*/
+QPushButton#TitleRestart
+{
+    border-image:url(./Resource/NewUI/TitleBtn/TitleBtn.png) 0 342 0 0 ;
+}
+
+QPushButton#TitleRestart:hover
+{
+    border-image:url(./Resource/NewUI/TitleBtn/TitleBtn.png) 0 216 0 108 ;
+}
+
+QPushButton#TitleRestart:pressed
+{
+    border-image:url(./Resource/NewUI/TitleBtn/TitleBtn.png) 0 108 0 216 ;
+}

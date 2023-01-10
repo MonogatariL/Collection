@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Quantity_manager</class>
+ <widget class="QWidget" name="Quantity_manager">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>244</width>
+    <height>149</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>200</width>
+    <height>100</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Quantity_manager</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#Quantity_manager{
+	background-color: rgb(170, 170, 255);
+}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="LB_Msg">
+     <property name="font">
+      <font>
+       <family>Microsoft YaHei</family>
+       <pointsize>-1</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+font-size: 16px;
+font-family: Microsoft YaHei;
+font-weight: 400;
+color: #ffffff;</string>
+     </property>
+     <property name="text">
+      <string>请选择归还数量：</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="LB_Msg_2">
+     <property name="font">
+      <font>
+       <family>Microsoft YaHei</family>
+       <pointsize>-1</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+font-size: 16px;
+font-family: Microsoft YaHei;
+font-weight: 400;
+color: #ffffff;</string>
+     </property>
+     <property name="text">
+      <string>请选择归还数量：</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QSpinBox" name="SB_Value">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+border: 1px solid #CFDDEF;
+border-top-left-radius:6px;
+border-bottom-left-radius:6px;
+
+font-size: 14px;
+font-family: Microsoft YaHei;
+font-weight: 400;
+color: #5786C7;</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="PB_Ok">
+       <property name="styleSheet">
+        <string notr="true">background: #EDF8FF;
+border: 1px solid #CFDDEF;
+border-top-left-radius:6px;
+border-bottom-left-radius:6px;
+
+font-size: 14px;
+font-family: Microsoft YaHei;
+font-weight: 400;
+color: #5786C7;</string>
+       </property>
+       <property name="text">
+        <string>确定</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="PB_Close">
+       <property name="styleSheet">
+        <string notr="true">background: #EDF8FF;
+border: 1px solid #CFDDEF;
+border-top-left-radius:6px;
+border-bottom-left-radius:6px;
+
+font-size: 14px;
+font-family: Microsoft YaHei;
+font-weight: 400;
+color: #5786C7;</string>
+       </property>
+       <property name="text">
+        <string>关闭</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

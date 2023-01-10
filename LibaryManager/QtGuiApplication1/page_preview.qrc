@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/page_preview">
+        <file>Resources/BackGround2.png</file>
+        <file>Resources/LoginResource/bg.png</file>
+        <file>Resources/LoginResource/bg2.png</file>
+        <file>Resources/LoginResource/LogoLogin.png</file>
+        <file>Resources/LoginResource/offLineTestDefault.png</file>
+        <file>Resources/LoginResource/offLineTestDown.png</file>
+        <file>Resources/LoginResource/onlineAnalyzeDefault.png</file>
+        <file>Resources/LoginResource/onlineAnalyzeDown.png</file>
+        <file>Resources/LoginResource/onlineDefault.png</file>
+        <file>Resources/LoginResource/onlineDown.png</file>
+        <file>Resources/LoginResource/欢迎进入.png</file>
+        <file>Resources/LoginResource/bg3.png</file>
+        <file>Resources/BackGround3.png</file>
+        <file>Resources/BackGround4.png</file>
+    </qresource>
+</RCC>
